@@ -3,7 +3,7 @@ import babel from "@rollup/plugin-babel";
 import postcss from "rollup-plugin-postcss";
 
 export default {
-  input: ["index.js", "src/Sidebar/index.js", "src/Topbar/index.js"],
+  input: ["index.js", "src/Base/index.js"],
   output: [
     {
       dir: "build",
@@ -20,6 +20,7 @@ export default {
       exclude: "node_modules/**",
     }),
     resolve(),
+    commonjs({}),
     postcss({
       config: {
         path: "./postcss.config.js",

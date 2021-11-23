@@ -28,7 +28,7 @@ There are two ways you can develop components.
 
 - Create a brand new react js app (Ex: my-app) using following: https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
 - Run `yarn link` in current component library. Ex: If you component name is react-navigations, you would run yarn link inside react-navigations
-- Go to newly created reactjs app (my-app) and run `yarn link @reusejs/react-navigations`
+- Go to newly created reactjs app (my-app) and run `yarn link @reusejs/react-toggles`
 - At the same time also run `yarn serve` in react-navigations, so that as you make changes, build happens simultaneously and your my-app refreshes it
 
 ## Contributing
@@ -60,11 +60,11 @@ react-navigations is freely distributable under the terms of the [MIT license][l
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
 
-[npm-url]: https://npmjs.org/package/@reusejs/react-navigations
-[npm-version-image]: https://img.shields.io/npm/v/@reusejs/react-navigations.svg?style=flat
+[npm-url]: https://npmjs.org/package/@reusejs/react-toggles
+[npm-version-image]: https://img.shields.io/npm/v/@reusejs/react-toggles.svg?style=flat
 
-[npm-downloads-image]: https://img.shields.io/npm/dm/@reusejs/react-navigations.svg?style=flat
-[npm-downloads-url]: https://npmcharts.com/compare/@reusejs/react-navigations?minimal=true
+[npm-downloads-image]: https://img.shields.io/npm/dm/@reusejs/react-toggles.svg?style=flat
+[npm-downloads-url]: https://npmcharts.com/compare/@reusejs/react-toggles?minimal=true
 
 [view-storybook-image]: https://img.shields.io/badge/View-Storybook-F59E0B.svg
 [view-storybook-url]: https://master--61797fbed9a2d4003a4bc570.chromatic.com
@@ -72,8 +72,8 @@ react-navigations is freely distributable under the terms of the [MIT license][l
 [join-discord-image]: https://img.shields.io/badge/Join-Discord-7389D8.svg
 [join-discord-url]: https://discord.gg/VUa9SHvvDb
 
-[storybook-action-image]: https://github.com/reusejs/react-navigations/actions/workflows/chromatic.yml/badge.svg
-[storybook-action-url]: https://github.com/reusejs/react-navigations/actions/workflows/chromatic.yml
+[storybook-action-image]: https://github.com/reusejs/react-toggles/actions/workflows/chromatic.yml/badge.svg
+[storybook-action-url]: https://github.com/reusejs/react-toggles/actions/workflows/chromatic.yml
 
-[npm-publish-action-image]: https://github.com/reusejs/react-navigations/actions/workflows/publish.yml/badge.svg
-[npm-publish-action-url]: https://github.com/reusejs/react-navigations/actions/workflows/publish.yml
+[npm-publish-action-image]: https://github.com/reusejs/react-toggles/actions/workflows/publish.yml/badge.svg
+[npm-publish-action-url]: https://github.com/reusejs/react-toggles/actions/workflows/publish.yml

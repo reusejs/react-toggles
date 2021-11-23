@@ -1,5 +1,3 @@
-import Topbar from "./src/Topbar";
-import Sidebar from "./src/Sidebar";
-import VerticalNavigation from "./src/VerticalNavigation";
+import Base from "./src/Base";
 
-export { Sidebar, Topbar, VerticalNavigation };
+export { Base };
