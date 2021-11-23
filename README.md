@@ -8,7 +8,7 @@
 
 # React Navigations
 
-View Storybook at: https://master--61797fbed9a2d4003a4bc570.chromatic.com
+View Storybook at: https://master--619d1c0afa9e32003a82ac6a.chromatic.com
 
 ### Where to write components?
 
@@ -67,7 +67,7 @@ react-navigations is freely distributable under the terms of the [MIT license][l
 [npm-downloads-url]: https://npmcharts.com/compare/@reusejs/react-toggles?minimal=true
 
 [view-storybook-image]: https://img.shields.io/badge/View-Storybook-F59E0B.svg
-[view-storybook-url]: https://master--61797fbed9a2d4003a4bc570.chromatic.com
+[view-storybook-url]: https://master--619d1c0afa9e32003a82ac6a.chromatic.com
 
 [join-discord-image]: https://img.shields.io/badge/Join-Discord-7389D8.svg
 [join-discord-url]: https://discord.gg/VUa9SHvvDb

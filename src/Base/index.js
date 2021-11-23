@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../tailwind.css";
 import { useState } from "react";
 import { Switch } from "@headlessui/react";
@@ -7,8 +7,18 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Base = ({ label = null, description = null, ...props }) => {
-  const [enabled, setEnabled] = useState(false);
+const Base = ({
+  label = null,
+  description = null,
+  defaultValue = false,
+  onChange = () => {},
+  ...props
+}) => {
+  const [enabled, setEnabled] = useState(defaultValue);
+
+  useEffect(() => {
+    onChange(enabled);
+  }, [enabled]);
 
   return (
     <Switch.Group

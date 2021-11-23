@@ -9,9 +9,12 @@ export default {
 const Template = (args) => <Base {...args} />;
 
 export const Default = Template.bind({});
+Default.args = {};
 
-Default.args = {
-
+export const DefaultTrue = Template.bind({});
+DefaultTrue.args = {
+  defaultValue: true,
+  onChange: (v) => { console.log(v) }
 };
 
 export const WithLabel = Template.bind({});
