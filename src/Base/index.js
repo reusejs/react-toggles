@@ -20,6 +20,10 @@ const Base = ({
     onChange(enabled);
   }, [enabled]);
 
+  useEffect(() => {
+    setEnabled(defaultValue);
+  }, [defaultValue]);
+
   return (
     <Switch.Group
       as="div"
